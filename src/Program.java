@@ -1,9 +1,9 @@
+import java.util.TreeSet;
+
 public class Program {
     public static void main(String[] args){
-        String str = "abcd";
-        String output = StringReverse.stringReverse(str);
+        String word = TranslateNumberToWord.translateNumberToWord(1512758);
 
-        StringReverse.displayString(output);
-
+        System.out.println(word);
     }
 }
